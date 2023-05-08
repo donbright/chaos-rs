@@ -1,0 +1,19 @@
+[package]
+name = "chaos-rs"
+version = "0.0.9"
+authors = ["don bright <hmbright@fastmail.com>"]
+edition = "2021"
+build = "build.rs"
+license = "GPL-3.0-only OR LicenseRef-Slint-commercial"
+publish = false
+
+[[bin]]
+path = "main.rs"
+name = "chaos-rs"
+
+[dependencies]
+slint = { path = "../../src/slint/api/rs/slint" }
+
+[build-dependencies]
+slint-build = { path = "../../src/slint/api/rs/build" }
+

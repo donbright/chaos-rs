@@ -1,11 +1,12 @@
 # Chaos-RS - a port of James Gleick's CHAOS: The Software
 
 This is a work-in-progress port of the free release of James Gleick's 
-CHAOS, December 15, 1998. The original software was written by Josh 
-Gordon, Rudy Rucker and John Walker for Autodesk, Inc. Rucker wrote most 
-of the algorithm, except for the Fractal Landscapes algorithms, which 
-are by John Walker. Gordon did the interface, and much of the 
-implementation of the algorithm code.
+CHAOS, December 15, 1998, forked from the original at https://github.com/rudyrucker/chaos
+
+The original software was written by Josh Gordon, Rudy Rucker and John 
+Walker for Autodesk, Inc. Rucker wrote most of the algorithm, except for 
+the Fractal Landscapes algorithms, which are by John Walker. Gordon did 
+the interface, and much of the implementation of the algorithm code.
 
 The original program was written in consultation with James Gleick about 
 his brilliant book, <a href="https://around.com/books/"> <i>Chaos: 
@@ -19,9 +20,13 @@ rights for the product to James Gleick.  Gleick agrees that the software
 can be freely released under a Gnu license.
 
 The original code was DOS and assembly code, using Borland's legendary 
-Turbo C and Turbo Assembler.
+Turbo C and Turbo Assembler. It was advertised as running on the 
+original IBM PC, which was a 4.77 Megahertz 16-bit Intel 8088 processor 
+with a normal design maximum of 1 Megabyte of RAM, only some of that 
+addressable by programs. It also advertised EGA or VGA graphics, i.e.
+640x480 by Maybe 256 colors, probably 16, depending on your graphics card.
 
-This port is written in Rust, for Linux.
+This port is written in Rust, for Linux, on 2023-era machines.
 
 # What's In Chaos-RS
 

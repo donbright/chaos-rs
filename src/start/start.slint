@@ -1,0 +1,70 @@
+
+component MyButton inherits Text {
+    color:whitesmoke;
+    x:2px;
+    y:2px;
+}
+
+component MyButtonBox inherits Rectangle {
+    background:gray;
+    drop-shadow-color: black;
+    drop-shadow-offset-x: 2px;
+    drop-shadow-offset-y: 2px;
+    drop-shadow-blur: 4px;
+}
+
+export component MyApp inherits Window {
+    preferred-width: 640px;
+    preferred-height: 480px;
+    Rectangle {
+        width: 640px;
+        height: 480px;
+        background: tan;
+    }
+    MyButtonBox {
+        MyButton {text:"Mandelbrot Set";}
+        width: 100px;
+        height: 1.5rem;
+        x:15px;
+        y:15px;
+    }
+    MyButtonBox {
+        MyButton {text:"Magnets and Pendulums";}
+        width: 153px;
+        height: 1.5rem;
+        x:40px;
+        y:40px;
+    }
+    MyButtonBox {
+        MyButton {text:"Strange Attractors";}
+        width: 123px;
+        height: 1.5rem;
+        x:65px;
+        y:65px;
+    }
+   MyButtonBox {
+        MyButton {text:"The CHAOS Game";}
+        width: 123px;
+        height: 1.5rem;
+        x:90px;
+        y:90px;
+    }
+
+   MyButtonBox {
+        MyButton {text:"Fractal Forgeries";}
+        width: 123px;
+        height: 1.5rem;
+        x:115px;
+        y:115px;
+    }
+
+   MyButtonBox {
+        MyButton {text:"Toy Universes";}
+        width: 123px;
+        height: 1.5rem;
+        x:140px;
+        y:140px;
+    }
+
+}
+

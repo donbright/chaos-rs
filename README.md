@@ -1,11 +1,11 @@
 # Chaos-RS - a port of James Gleick's CHAOS: The Software
 
-This is a port of the free release of James Gleick's CHAOS, December 15, 
-1998. The original software was written by Josh Gordon, Rudy Rucker and 
-John Walker for Autodesk, Inc. Rucker wrote most of the algorithm, 
-except for the Fractal Landscapes algorithms, which are by John Walker.  
-Gordon did the interface, and much of the implementation of the 
-algorithm code.
+This is a work-in-progress port of the free release of James Gleick's 
+CHAOS, December 15, 1998. The original software was written by Josh 
+Gordon, Rudy Rucker and John Walker for Autodesk, Inc. Rucker wrote most 
+of the algorithm, except for the Fractal Landscapes algorithms, which 
+are by John Walker. Gordon did the interface, and much of the 
+implementation of the algorithm code.
 
 The original program was written in consultation with James Gleick about 
 his brilliant book, <a href="https://around.com/books/"> <i>Chaos: 
